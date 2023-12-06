@@ -4,7 +4,7 @@ html {
 
     background-image: url("./fotos/fondo.jpg");
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
-    background-repeat: no-repeat;
+/*     background-repeat: no-repeat; */
 }
 
 .titulo {
@@ -53,4 +53,15 @@ html {
     width: 150px;
     height: 20px;
     align-items: center;
+}
+
+@media (max-width: 600px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+    
+        background-image: url("./fotos/fondo.jpg");
+
+    }
+
 }
